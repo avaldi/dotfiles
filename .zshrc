@@ -65,16 +65,16 @@ fi
 export ARCHFLAGS="-arch x86_64"
 
 # ssh
-# export SSH_KEY_PATH="~/.ssh/dsa_id"
+# export SSH_KEY_PATH="$HOME/.ssh/dsa_id"
 
 # virtualenvwrapper
 source "/usr/local/bin/virtualenvwrapper.sh"
-export WORKON_HOME="~/.virtualenvs"
+export WORKON_HOME="$HOME/.virtualenvs"
 
 export GIT_TEMPLATE_DIR="~/.git_template"
 
 alias pycclean="find . -name '*.pyc' -delete"
 
 #AndroidDev PATH
-export PATH=${PATH}:~/Library/Android/sdk/tools
-export PATH=${PATH}:~/Library/Android/sdk/platform-tools
+export PATH=${PATH}:$HOME/Library/Android/sdk/tools
+export PATH=${PATH}:$HOME/Library/Android/sdk/platform-tools
