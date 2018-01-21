@@ -69,12 +69,12 @@ fi
 
 # virtualenvwrapper
 source "/usr/local/bin/virtualenvwrapper.sh"
-export WORKON_HOME="/Users/andrea/.virtualenvs"
+export WORKON_HOME="~/.virtualenvs"
 
-export GIT_TEMPLATE_DIR=/Users/andrea/.git_template
+export GIT_TEMPLATE_DIR="~/.git_template"
 
 alias pycclean="find . -name '*.pyc' -delete"
 
 #AndroidDev PATH
-export PATH=${PATH}:/Users/andrea/Library/Android/sdk/tools
-export PATH=${PATH}:/Users/andrea/Library/Android/sdk/platform-tools
+export PATH=${PATH}:~/Library/Android/sdk/tools
+export PATH=${PATH}:~/Library/Android/sdk/platform-tools
